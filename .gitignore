@@ -1,0 +1,29 @@
+# Java build
+Analyzer/target/
+Analyzer/build/
+Analyzer/out/
+Analyzer/*.class
+
+# IntelliJ
+Analyzer/.idea/
+Analyzer/*.iml
+
+# OS
+Analyzer/.DS_Store
+
+# Logs
+Analyzer/*.log
+
+# Python (if used)
+.venv/
+__pycache__/
+*.pyc
+
+# Your analysis outputs (VERY IMPORTANT)
+Analyzer/ExcelResults/
+Analyzer/ParsedJsons/
+
+Analyzer/LogData/
+Analyzer/DeveloperInfo/
+Analyzer/groundtruth/
+*.ndjson
