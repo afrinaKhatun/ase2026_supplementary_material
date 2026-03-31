@@ -38,6 +38,18 @@ Alternatively, run the `RunnerVer3` class directly from an IDE.
 
 ---
 
+#### 📂 Output Artifacts
+The following table indicates the specific java files running which generates the corresponding output files in specific output folders - 
+
+| Component              | Output Folder     | File Name Pattern        | Description |
+|-----------------------|------------------|-------------------------|------------|
+| RunnerVer3.java            | `ParsedJsons/`   | `<repo-name>-commit-test-change-history.ndjson`    | Parsed commit-level information |
+| RunnerVer3.java | `LogData/`  | `<repo-name>logData.txt`      | Logging Execution Details |
+| SetSimilarityAnalysis.java            | `ExcelResults/`   | `<repo-name>_set_Result.xlsx`    | Identifies the Potential Amplification Pairs |
+| DeveloperInfoExtracter.java            | `DeveloperInfo/`   | `<repo-name>_developer_info_output.xlsx`    |  Parsed Method Level Code Authorship, Locality and Temporal Distance|
+
+
+
 ### 🔹 coding/
 
 This folder contains annotated datasets produced by human annotators. Out of the 1728 amplification pairs, both human annotators firstly annotated 101 pairs to refine the codes and then additonally annotated 318 pairs making it to 419 pairs.
@@ -67,14 +79,4 @@ This folder includes:
 - Collected participant responses   
 
 ---
-
-## 📂 Output Artifacts
-The followin table indicates the specific java files running which generates the corresponding output files in specific output folders - 
-
-| Component              | Output Folder     | File Name Pattern        | Description |
-|-----------------------|------------------|-------------------------|------------|
-| RunnerVer3            | `ParsedJsons/`   | `<repo-name>-commit-test-change-history.ndjson`    | Parsed commit-level information |
-| RunnerVer3 | `LogData/`  | `<repo-name>logData.txt`      | Logging Execution Details |
-| SetSimilarityAnalysis            | `ExcelResults/`   | `<repo-name>_set_Result.xlsx`    | Identifies the Potential Amplification Pairs |
-| DeveloperInfoExtracter            | `DeveloperInfo/`   | `<repo-name>_developer_info_output.xlsx`    |  Parsed Method Level Code Authorship, Locality and Temporal Distance|
 
