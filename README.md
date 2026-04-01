@@ -21,7 +21,7 @@ This folder contains the core implementation of our analysis pipeline. It suppor
 
 #### ⚙️ Environment Requirements
 
-- All our implementation are run on Apple MacBook Pro (Apple M-series chip, 24 GB RAM or higher).
+- All our implementation are run on Apple MacBook Pro (Apple M-series chip, 24 GB RAM).
 - Java: **8, 11, 17, or later** . Old java versions required to compile historical commits.
 - Maven 
 
